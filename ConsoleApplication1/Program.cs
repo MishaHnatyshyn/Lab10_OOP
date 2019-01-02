@@ -8,6 +8,7 @@ namespace ConsoleApplication1
         {
             Console.WriteLine("Hnatyshyn Mykhailo, IP-72, Variant #5");
 
+            
             Console.WriteLine();
             Student me = new Student("Mykhailo", "Hnatyshyn", new DateTime(1998, 06, 14), Student.Education.Bachelor, "IP-72", "IP-7207");
             Console.WriteLine(me.ToString());
